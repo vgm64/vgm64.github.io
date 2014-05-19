@@ -5,8 +5,15 @@ title: Data be Nimble, Data be Quick
 
 
 
-Data be Nimble, Data be Quick
+Title: {{ page.title }}
 -----------------------------
+
+
+
+
+<p style="color:#888888;margin-left:20px">
+  Posted {{ page.date | date: "%B %d, %Y" }}
+</p>
 
 Sometimes research in academia seems to operate at a snail's pace. Results need to be understood in a deep and insightful way. (Need another month or two before you present your results? Sure!) Rushing results can lead to publication retraction and scientific embarrassment. Combining this with teaching positions, a multitude of unrelated projects, and mentoring undergraduates, academics tend to develop a "things get done when they get done" mentality. And it works. Sort of.
 
