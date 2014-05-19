@@ -23,9 +23,6 @@
 
           <h1 id="project_title">{{ site.title }}</h1>
           <h2 id="project_tagline">{{ site.tagline }}</h2>
-          <small style="color:888888;margin-left:20px">
-            Posted {{ page.date | date: "%B %d, %Y" }}
-          </small>
 
         </header>
     </div>
@@ -35,6 +32,14 @@
     <!-- ------------ -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
+
+          <h2>{{ page.title }}</h2>
+          <div style="color:888888;margin-left:20px;font-size:80%">
+            Posted {{ page.date | date: "%B %d, %Y" }}
+          </div>
+          {{ page.content }}
+
+          <p> ---------------------------------------------------</p>
         {{ content }}
       </section>
     </div>

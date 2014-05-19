@@ -3,19 +3,7 @@ layout: post
 title: Data be Nimble, Data be Quick
 ---
 
-
-
-Title: {{ page.title }}
------------------------------
-
-
-
-
-<p style="color:#888888;margin-left:20px">
-  Posted {{ page.date | date: "%B %d, %Y" }}
-</p>
-
-Sometimes research in academia seems to operate at a snail's pace. Results need to be understood in a deep and insightful way. (Need another month or two before you present your results? Sure!) Rushing results can lead to publication retraction and scientific embarrassment. Combining this with teaching positions, a multitude of unrelated projects, and mentoring undergraduates, academics tend to develop a "things get done when they get done" mentality. And it works. Sort of.
+At times, research in academia seems to operate at a snail's pace. Results need to be understood in a deep and insightful way. (Need another month or two before you present your results? Sure!) Rushing results can lead to publication retraction and scientific embarrassment. Combining this with teaching positions, a multitude of unrelated projects, and mentoring undergraduates, academics tend to develop a "things get done when they get done" mentality. And it works. Sort of.
 
 As a physicist, I spent far more time performing data manipulation and writing software than I did doing real physics. Such is the case for <a href="http://escience.washington.edu/blog/data-science-incubation-program">many scientists</a> that deal with lots of data. Part of the reason for this is that programming backgrounds for scientists are developed on the go, rarely having a foundation built in CS knowledge. Typically, software is written that is hacky, fragile, and horrible to share, or productivity suffers as individuals waste weeks learning what "real programmers" might do.
 
