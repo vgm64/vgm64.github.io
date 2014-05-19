@@ -43,8 +43,11 @@
         {% endfor %}
       </ul>
       {% assign newest_post = site.posts.first %}
-      <h3>{{ page.title }}</h3><p>
-      {{ newest_post.content }}
+      <h2>{{ newest_post.title }}</h2>
+      <div style="color:888888;margin-left:20px;font-size:80%">
+        Posted {{ newest_post.date | date: "%B %d, %Y" }}
+      </div>
+      {{ newest_post.excerpt }} ... <a href="{{ newest_post.url }}">Continue reading</a>
       </section>
     </div>
     </body>
