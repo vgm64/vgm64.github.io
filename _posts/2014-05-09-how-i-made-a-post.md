@@ -3,6 +3,8 @@ layout: post
 title: Blogging Like a Hacker
 ---
 
+# Try a hash heading.
+
 Level One Heading
 =================
 
