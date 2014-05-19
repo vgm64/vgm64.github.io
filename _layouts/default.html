@@ -42,7 +42,10 @@
         </li>
         {% endfor %}
       </ul>
+      {% assign newest_post = site.posts.first %}
+      <h3>{{ page.title }}</h3><p>
+      {{ newest_post.content }}
       </section>
     </div>
-  </body>
+    </body>
 </html>
