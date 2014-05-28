@@ -1,4 +1,8 @@
-#project_title a:link {
-    color: inherit;
-    text-decoration: inherit;
-  }
+/*#project_title a:link {*/
+    /*color: inherit;*/
+    /*text-decoration: inherit;*/
+  /*}*/
+h1 a:hover { 
+  text-decoration: none;
+  color: #080808;
+}
