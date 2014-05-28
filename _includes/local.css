@@ -2,7 +2,7 @@
     /*color: inherit;*/
     /*text-decoration: inherit;*/
   /*}*/
-h1 a:hover { 
+#project_title a:hover { 
   text-decoration: none;
   color: #080808;
 }
