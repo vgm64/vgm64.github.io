@@ -3,6 +3,6 @@
     /*text-decoration: inherit;*/
   /*}*/
 #project_title a:hover { 
-  text-decoration: none;
-  color: #080808;
+  text-decoration: inherit;
+  color: inherit;
 }
