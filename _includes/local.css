@@ -1,4 +1,1 @@
-a.nav:link {color: blue; text-decoration: none; }
-a.nav:visited {color: purple; text-decoration: none; }
-a.nav:hover {color: orange; text-decoration: underline; }
-a.nav:active {color: red; }
+a.nav:hover {text-decoration: none; }
