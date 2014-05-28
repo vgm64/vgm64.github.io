@@ -1,1 +1,5 @@
-a.nav:hover {text-decoration: none; }
+/*a.nav:hover {text-decoration: none; }*/
+h1 a:link {
+    color: inherit;
+    text-decoration: inherit;
+  }
